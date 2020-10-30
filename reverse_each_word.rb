@@ -5,6 +5,6 @@ def reverse_each_word(string)
  
   backwards = word.collect { |letter| letter.reverse}
   
-  backwards.join("")
+  backwards.join(" ")
 
 end 
