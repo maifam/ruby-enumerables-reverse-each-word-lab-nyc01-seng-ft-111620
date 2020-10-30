@@ -3,9 +3,8 @@
 def reverse_word(string)
   word = string.split(" ")
  
-  backwards = word.each{ |letter| letter.reverse}
+  backwards = word.collect { |letter| letter.reverse}
   
   backwards.join("")
-  
 
 end 
