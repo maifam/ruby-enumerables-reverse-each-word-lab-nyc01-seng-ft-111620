@@ -2,7 +2,8 @@
 
 def reverse_word(string)
   parts = string.split(" ")
-  parts.reverse 
+  parts.each do |char| 
+    
   
   
 end 
